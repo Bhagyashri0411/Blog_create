@@ -1,0 +1,54 @@
+.u-repeater {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-gap: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    gap:15px
+}
+
+.u-container-style {
+    display: flex;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.u-container-layout {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 28px;
+}
+
+.u-align-center {
+    height: auto;
+    background-image: none;
+    color: #111111;
+    background-color: #ffffff;
+    text-align: justify;
+    display: flex;
+   
+}
+
+.u-valign-middle-xl {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    justify-content: center;
+}
+
+.u-custom-font {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0;
+    color: #9c27b0;
+    text-transform: capitalize;
+}
